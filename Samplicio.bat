@@ -15,8 +15,8 @@ echo       "888 .d888888 888  888  888 888  888 888 888 888      888 888  888
 echo Y88b  d88P 888  888 888  888  888 888 d88P 888 888 Y88b.    888 Y88..88P 
 echo  "Y8888P"  "Y888888 888  888  888 88888P"  888 888  "Y8888P 888  "Y88P"  
 echo ================================= 888 =====================================
-echo           Versi¢n 3.0             888         Creado por:                       
-echo                                   888                     Rafael Y‚pez
+echo           VersiÂ¢n 3.0             888         Creado por:                       
+echo                                   888                     Rafael Yâ€špez
 
 Set /P "ENLACE=%username% Introduce el enlace completo: "
 
@@ -38,14 +38,14 @@ Echo  2 - selfserve.decipherinc.com			27 - web70.gfk.com				52 - surveygizmo.com
 Echo  3 - enter.ipsosinteractive.com			28 - hanover-research.qualtrics.com		53 - co1.qualtrics.com
 Echo  4 - crweblab.com				29 - survey-d.researchnow.com			54 - Survey7.burke
 Echo  5 - xxx.qualtrics.com				30 - surveys.savanta.com			55 - SampleUnion
-Echo  6 - bizpinion.com				31 - survey.orcinternational.com		56 - ESPACIO RESERVADO
-Echo  7 - uk.focusvision.com				32 - m1.intellisurvey.com			57 - ESPACIO RESERVADO
-Echo  8 - survey.cmix.com				33 - tes.decipherinc.com			58 - ESPACIO RESERVADO
-Echo  9 - aytm.com					34 - ns207.askia.com				59 - ESPACIO RESERVADO
-Echo 10 - core-gp.firstinsight.com			35 - QuestMindShare.com				60 - ESPACIO RESERVADO
-Echo 11 - nrg.decipherinc.com			36 - 7thsr.co1.qualtrics.com			61 - ESPACIO RESERVADO
-Echo 12 - ilabinsight.com				37 - invite.rmrsurveys.com			62 - ESPACIO RESERVADO
-Echo 13 - invite.rmrsurveys.com			38 - ilabinsight.com				63 - ESPACIO RESERVADO
+Echo  6 - bizpinion.com				31 - survey.orcinternational.com		56 - dimensions4.mercuryanalytics.com
+Echo  7 - uk.focusvision.com				32 - m1.intellisurvey.com			57 - rds-surveys.com
+Echo  8 - survey.cmix.com				33 - tes.decipherinc.com			58 - ugam.decipherinc.com
+Echo  9 - aytm.com					34 - ns207.askia.com				59 - nrg.decipherinc.com
+Echo 10 - core-gp.firstinsight.com			35 - QuestMindShare.com				60 - gutcheck.decipherinc.com
+Echo 11 - nrg.decipherinc.com			36 - 7thsr.co1.qualtrics.com			61 - survey.orcinternational.com
+Echo 12 - ilabinsight.com				37 - invite.rmrsurveys.com			62 - survey.admemes.com
+Echo 13 - invite.rmrsurveys.com			38 - ilabinsight.com				63 - xxx.az1.qualtrics.com
 Echo 14 - survey18.toluna.com			39 - mysurveys.com				64 - ESPACIO RESERVADO
 Echo 15 - linescale.com				40 - surveygizmo.com				65 - ESPACIO RESERVADO
 Echo 16 - reviewrobin.com				41 - co1.qualtrics.com				66 - ESPACIO RESERVADO
@@ -57,10 +57,10 @@ Echo 21 - survey.co1.qualtrics.com			46 - fp.surveys.datassential.com		71 - ESPA
 Echo 22 - isurvey-us.yougov.com			47 - survey7.jdpoweronline.com			72 - ESPACIO RESERVADO
 Echo 23 - gutcheck.decipherinc.com			48 - illumesurveys.com				73 - ESPACIO RESERVADO
 Echo 24 - survey.mpeweb.co.u				49 - shineunited.qualtrics.com			74 - ESPACIO RESERVADO
-Echo 25 - caravan.enginegroup.com			50 - daisurvey.com				75 - ESPACIO RESERVADO
-Echo 00 - MµS OPCIONES
+Echo 25 - caravan.enginegroup.com			50 - daisurvey.com				75 - UNIVERSAL / PRUEBA
+Echo 00 - MÂµS OPCIONES
 Echo.
-set /p menup= ¨Qu‚ encuesta te toc¢? Escribe el n£mero de la opci¢n elegida (Sin punto):
+set /p menup= Â¨Quâ€š encuesta te tocÂ¢? Escribe el nÂ£mero de la opciÂ¢n elegida (Sin punto):
 
 if %menup%==1 goto 1
 if %menup%==2 goto 2
@@ -169,7 +169,7 @@ Echo  99 - ESPACIO RESERVADO				124 - ESPACIO RESERVADO				149 - ESPACIO RESERVA
 Echo 100 - ESPACIO RESERVADO				125 - ESPACIO RESERVADO				150 - ESPACIO RESERVADO
 Echo  00 - REGRESAR AL MENU PRINCIPAL
 Echo.
-set /p menup= ¨Qu‚ encuesta te toc¢? Escribe el n£mero de la opci¢n elegida (Sin punto):
+set /p menup= Â¨Quâ€š encuesta te tocÂ¢? Escribe el nÂ£mero de la opciÂ¢n elegida (Sin punto):
 
 if %menup%==76 goto 76 & if %menup%==77 goto 77 & if %menup%==78 goto 78 & if %menup%==79 goto 79 & if %menup%==80 goto 80 
 if %menup%==81 goto 81 & if %menup%==82 goto 82 & if %menup%==83 goto 83 & if %menup%==84 goto 84 & if %menup%==85 goto 85 
@@ -299,21 +299,21 @@ cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/Clie
 :55
 cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e633cad0-167e-41ca-9032-206efe7dd432&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :56
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=475a599d-9e38-4cb5-8477-0d0d54b63cf1&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :57
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :58
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :59
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :60
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :61
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :62
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :63
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :64
 cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :65
@@ -337,7 +337,7 @@ cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado 
 :74
 cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :75
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :76
 cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :77
