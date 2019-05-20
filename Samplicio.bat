@@ -1,8 +1,8 @@
 @Echo off
-color 02
+color 03
 
 :INICIO
-title Samplicio 3.0
+title Samplicio 4.0
 
 :encuestas
 echo.
@@ -15,7 +15,7 @@ echo       "888 .d888888 888  888  888 888  888 888 888 888      888 888  888
 echo Y88b  d88P 888  888 888  888  888 888 d88P 888 888 Y88b.    888 Y88..88P 
 echo  "Y8888P"  "Y888888 888  888  888 88888P"  888 888  "Y8888P 888  "Y88P"  
 echo ================================= 888 =====================================
-echo           Versi¢n 3.0             888         Creado por:                       
+echo           Versi¢n 4.0             888         Creado por:                       
 echo                                   888                     Rafael Y‚pez
 
 Set /P "ENLACE=%username% Introduce el enlace completo: "
@@ -33,31 +33,31 @@ cls
 :Menu
 cls
 Echo.
-Echo  1 - survey.bz					26 - survey2.voicefive.com			51 - zippo.co1.qualtrics.com
-Echo  2 - selfserve.decipherinc.com			27 - web70.gfk.com				52 - surveygizmo.com
-Echo  3 - enter.ipsosinteractive.com			28 - hanover-research.qualtrics.com		53 - co1.qualtrics.com
-Echo  4 - crweblab.com				29 - survey-d.researchnow.com			54 - Survey7.burke
-Echo  5 - xxx.qualtrics.com				30 - surveys.savanta.com			55 - SampleUnion
-Echo  6 - bizpinion.com				31 - survey.orcinternational.com		56 - dimensions4.mercuryanalytics.com
-Echo  7 - uk.focusvision.com				32 - m1.intellisurvey.com			57 - rds-surveys.com
-Echo  8 - survey.cmix.com				33 - tes.decipherinc.com			58 - ugam.decipherinc.com
-Echo  9 - aytm.com					34 - ns207.askia.com				59 - nrg.decipherinc.com
-Echo 10 - core-gp.firstinsight.com			35 - QuestMindShare.com				60 - gutcheck.decipherinc.com
-Echo 11 - nrg.decipherinc.com			36 - 7thsr.co1.qualtrics.com			61 - survey.orcinternational.com
-Echo 12 - ilabinsight.com				37 - invite.rmrsurveys.com			62 - survey.admemes.com
-Echo 13 - invite.rmrsurveys.com			38 - ilabinsight.com				63 - xxx.az1.qualtrics.com
-Echo 14 - survey18.toluna.com			39 - mysurveys.com				64 - ESPACIO RESERVADO
-Echo 15 - linescale.com				40 - surveygizmo.com				65 - ESPACIO RESERVADO
-Echo 16 - reviewrobin.com				41 - co1.qualtrics.com				66 - ESPACIO RESERVADO
-Echo 17 - marcoline.com				42 - g4-us.yougov.com				67 - ESPACIO RESERVADO
-Echo 18 - ugam.decipherinc.com			43 - ws.int-research.com			68 - ESPACIO RESERVADO
-Echo 19 - survey.admemes.com				44 - surveys.globaltestmarket.com		69 - ESPACIO RESERVADO
-Echo 20 - dirsurveys.com				45 - jfe-cdn.qualtrics.com			70 - ESPACIO RESERVADO
-Echo 21 - survey.co1.qualtrics.com			46 - fp.surveys.datassential.com		71 - ESPACIO RESERVADO
-Echo 22 - isurvey-us.yougov.com			47 - survey7.jdpoweronline.com			72 - ESPACIO RESERVADO
-Echo 23 - gutcheck.decipherinc.com			48 - illumesurveys.com				73 - ESPACIO RESERVADO
-Echo 24 - survey.mpeweb.co.u				49 - shineunited.qualtrics.com			74 - ESPACIO RESERVADO
-Echo 25 - caravan.enginegroup.com			50 - daisurvey.com				75 - UNIVERSAL / PRUEBA
+echo 1  7thsr.co1.qualtrics.com		26 ns207.askia.com		51 UNIVERSAL / PRUEBA
+echo 2  aytm.com				27 QuestMindShare.com		53 ws.int-research.com
+echo 3  bizpinion.com			28 rds-surveys.com		54 xxx.az1.qualtrics.com
+echo 4  caravan.enginegroup.com		29 reviewrobin.com		55 xxx.qualtrics.com
+echo 5  co1.qualtrics.com			30 SampleUnion			56 zippo.co1.qualtrics.com	
+echo 6  core-gp.firstinsight.com		31 selfserve.decipherinc.com	
+echo 7  crweblab.com				32 shineunited.qualtrics.com	
+echo 8  daisurvey.com			33 survey.admemes.com		
+echo 9  dimensions4.mercuryanalytics.com	34 survey.bz
+echo 10 dirsurveys.com			35 survey.cmix.com	
+echo 11 enter.ipsosinteractive.com		36 survey.co1.qualtrics.com
+echo 12 fp.surveys.datassential.com		37 survey.mpeweb.co.u
+echo 13 g4-us.yougov.com			38 survey.orcinternational.com		
+echo 14 gutcheck.decipherinc.com		39 survey.orcinternational.com
+echo 15 hanover-research.qualtrics.com	40 survey18.toluna.com
+echo 16 ilabinsight.com			41 survey2.voicefive.com
+echo 17 illumesurveys.com			42 Survey7.burke	
+echo 18 invite.rmrsurveys.com		43 survey7.jdpoweronline.com
+echo 19 isurvey-us.yougov.com		44 survey-d.researchnow.com
+echo 20 jfe-cdn.qualtrics.com		45 surveygizmo.com	
+echo 21 linescale.com			46 surveys.globaltestmarket.com
+echo 22 m1.intellisurvey.com			47 surveys.savanta.com
+echo 23 marcoline.com			48 tes.decipherinc.com
+echo 24 mysurveys.com			49 ugam.decipherinc.com
+echo 25 nrg.decipherinc.com			50 uk.focusvision.com
 Echo 00 - MµS OPCIONES
 Echo.
 set /p menup= ¨Qu‚ encuesta te toc¢? Escribe el n£mero de la opci¢n elegida (Sin punto):
@@ -189,131 +189,131 @@ if %menup%==146 goto 146 & if %menup%==147 goto 147 & if %menup%==148 goto 148 &
 if %menup%==00 goto Menu
 
 :1
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=3556dc6d-a0b4-4baa-be69-f24130f00c39&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e2b27f87-0ac4-4dcd-a6c5-4a8592c94144&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :2
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=1e8e00b4-15b7-4d08-9d41-0d1995ab7eee&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:3
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=ba795d80-7207-4383-8c01-88adbc5e4593&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:4
-cls & Echo Enlace generado & echo . |set /p="https://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=fpLki6nOpZFqagp7AlVEVfIwPBU" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:5
-cls & Echo Enlace generado & echo . |set /p="https://ca1.qualtrics.com/jfe/form/SV_8pMxd3ogHJgQ193?gc=1&term=&Quota=&opp=Qual713-0514Benefits&Country=&Wave=&email=&V=H&rid=%ID%&RISN=&rnid=&study=&uig=&gid=&sname=&uid=&PID=&psid=&K2=&med={Invalid%20Expression}&id=&ppsid=&ac=&sn=&lang=&vid=&token=&sid=&EOLID=&password=&spider=&cintid=&ProjectToken=&job=&custom1=&YGID=&ID=&identifier=&pcid=&sesskey=&zid=&tk=&r=&s=&cmpid=&viga=" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:6
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?RID=5c7e0ee4-763e-e64f-0d5b-6740cc2c4d86&token=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:7
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?RID=5c7e0ee4-763e-e64f-0d5b-6740cc2c4d86&token=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:8
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=1292e763-b3e0-4b57-8e8c-b6624626767c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:9
 cls & Echo Enlace generado & echo . |set /p="http://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=AAMK7G_TuPWU6f50mtvKz4x5XcE" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:10
+:3
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?RID=5c7e0ee4-763e-e64f-0d5b-6740cc2c4d86&token=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:4
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=0dfc1edb-5bf0-4539-96f6-bdf90604ad6d&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:5
+cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=Dj8xBCARbRfEY1wfeGydLN3ne9I" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:6
 cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=2f8449ae-fafe-4208-a814-06dcbdda879e&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:7
+cls & Echo Enlace generado & echo . |set /p="https://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=fpLki6nOpZFqagp7AlVEVfIwPBU" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:8
+cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%RID%&RISN=%RISN%&HashKey=VIHpdukbv5yVWDWcz17FzY9QDME" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:9
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=475a599d-9e38-4cb5-8477-0d0d54b63cf1&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:10
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :11
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=ba795d80-7207-4383-8c01-88adbc5e4593&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :12
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=a267c513-ec6f-4311-aec4-13af091127ce&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=ef2723ae-7e8d-4cbf-b700-a8df4bf36715&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :13
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=30237a6f-4a7d-458d-babf-0a19ad8299d3&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=d192b53d-0ad8-4a8e-8775-a4ec647aae6d&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :14
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=06a47cff-01af-498a-a6b8-d8b8fb0049e3&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :15
-cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%ID%&RISN=%RISN%&ienc2=907ElCg--gyE3Nn7l-iPfSTgADM" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=1903efab-c7ac-4c5d-86b7-0dc6e0333310&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :16
-cls & Echo Enlace generado & echo . |set /p="https://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=0NWnk2ia4MhR7pFwEOaMcp0NNrM" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=a267c513-ec6f-4311-aec4-13af091127ce&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :17
 cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :18
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=30237a6f-4a7d-458d-babf-0a19ad8299d3&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :19
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :20
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=7543a3xAYTnlxGGzDHSm9bo0Wic" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :21
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e2b27f87-0ac4-4dcd-a6c5-4a8592c94144&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%ID%&RISN=%RISN%&ienc2=907ElCg--gyE3Nn7l-iPfSTgADM" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :22
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:23
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:24
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=14edade1-ede6-4a5f-8b7d-69f51079d698&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:25
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=0dfc1edb-5bf0-4539-96f6-bdf90604ad6d&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:26
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e94be64c-4a1d-4fa3-aab2-4c48e71b7661&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:27
-cls & Echo Enlace generado & echo . |set /p="https://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:28
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=1903efab-c7ac-4c5d-86b7-0dc6e0333310&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:29
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:30
-cls & Echo Enlace generado & echo . |set /p="https://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%RID%&ienc2=kBYEvR5vWIDas1PdG2M79G93h5E" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:31
-cls & Echo Enlace generado & echo . |set /p="http://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:32
 cls & Echo Enlace generado & echo . |set /p="https://www.samplicio.us/s/ClientCallBack.aspx?RIS=30&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:33
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=2cff3d67-ea24-4297-9b78-db8af9394ee7&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:34
+:23
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:24
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e9c0a39a-e543-47f6-a636-8239b080278f&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:25
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:26
 cls & Echo Enlace generado & echo . |set /p="https://www.samplicio.us/router/ClientCallBack.aspx?RIS=40&RID=%ID%&token=TxhfJN-VB5Y_KG6UpJCGqkgIQ5I" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:35
+:27
 cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=295adde9-9212-4bae-8ea6-34aacfd4da7f&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:28
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:29
+cls & Echo Enlace generado & echo . |set /p="https://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=0NWnk2ia4MhR7pFwEOaMcp0NNrM" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:30
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e633cad0-167e-41ca-9032-206efe7dd432&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:31
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=1e8e00b4-15b7-4d08-9d41-0d1995ab7eee&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:32
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:33
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:34
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=3556dc6d-a0b4-4baa-be69-f24130f00c39&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:35
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=1292e763-b3e0-4b57-8e8c-b6624626767c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :36
 cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e2b27f87-0ac4-4dcd-a6c5-4a8592c94144&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :37
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=30237a6f-4a7d-458d-babf-0a19ad8299d3&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=14edade1-ede6-4a5f-8b7d-69f51079d698&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :38
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=a267c513-ec6f-4311-aec4-13af091127ce&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="http://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :39
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e9c0a39a-e543-47f6-a636-8239b080278f&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :40
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=3c4f0fb8-7598-4d9b-bddc-e563db0646db&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=06a47cff-01af-498a-a6b8-d8b8fb0049e3&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :41
-cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=Dj8xBCARbRfEY1wfeGydLN3ne9I" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e94be64c-4a1d-4fa3-aab2-4c48e71b7661&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :42
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=d192b53d-0ad8-4a8e-8775-a4ec647aae6d&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:43
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=11f980e8-6f39-4095-b389-33995f4d1038&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:44
-cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:45
-cls & Echo Enlace generado & echo . |set /p="https://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=7543a3xAYTnlxGGzDHSm9bo0Wic" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:46
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=ef2723ae-7e8d-4cbf-b700-a8df4bf36715&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:47
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=306d5b36-cd63-415c-a009-82d0226d83d2&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:48
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:49
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:50
-cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%RID%&RISN=%RISN%&HashKey=VIHpdukbv5yVWDWcz17FzY9QDME" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:51
-cls & Echo Enlace generado & echo . |set /p="https://ca1.qualtrics.com/jfe/form/SV_0GwFPO9XSFAf7sV?gc=1&term=&Quota=&opp=Qual739-0408BigPictureBranding&Country=&Wave=&email=&V=H%20&rid=%ID%&RISN=%RISN%&rnid=&study=&uig=&gid=&sname=&uid=&PID=&psid=&K2=&med=&id=&ppsid=&ac=&sn=&lang=&vid=&token=&sid=&EOLID=&password=&spider=&cintid=&ProjectToken=&job=&custom1=&YGID=&ID=&identifier=&pcid=&sesskey=&zid=&tk=&r=&s=&cmpid=&viga=&C=" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:52
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=3c4f0fb8-7598-4d9b-bddc-e563db0646db&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:53
-cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=Dj8xBCARbRfEY1wfeGydLN3ne9I" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:54
 cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&rid=%ID%&risn=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:55
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=e633cad0-167e-41ca-9032-206efe7dd432&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:56
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=475a599d-9e38-4cb5-8477-0d0d54b63cf1&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:57
+:43
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=306d5b36-cd63-415c-a009-82d0226d83d2&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:44
 cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:58
+:45
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=3c4f0fb8-7598-4d9b-bddc-e563db0646db&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:46
+cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/router/ClientCallBack.aspx?RIS=10&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:47
+cls & Echo Enlace generado & echo . |set /p="https://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%RID%&ienc2=kBYEvR5vWIDas1PdG2M79G93h5E" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:48
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=2cff3d67-ea24-4297-9b78-db8af9394ee7&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:49
 cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:59
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:60
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:61
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:62
-cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb/?token=cce0fa0d-e655-4e36-ae5b-ae0d3953bef8&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
-:63
+:50
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?RID=5c7e0ee4-763e-e64f-0d5b-6740cc2c4d86&token=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:51
 cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:52
+cls & Echo Enlace generado & echo . |set /p="https://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&RISN=%RISN%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:53
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=11f980e8-6f39-4095-b389-33995f4d1038&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:54
+cls & Echo Enlace generado & echo . |set /p="http://www.samplicio.us/s/ClientCallBack.aspx?RIS=10&rid=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:55
+cls & Echo Enlace generado & echo . |set /p="https://ca1.qualtrics.com/jfe/form/SV_8pMxd3ogHJgQ193?gc=1&term=&Quota=&opp=Qual713-0514Benefits&Country=&Wave=&email=&V=H&rid=%ID%&RISN=&rnid=&study=&uig=&gid=&sname=&uid=&PID=&psid=&K2=&med={Invalid%20Expression}&id=&ppsid=&ac=&sn=&lang=&vid=&token=&sid=&EOLID=&password=&spider=&cintid=&ProjectToken=&job=&custom1=&YGID=&ID=&identifier=&pcid=&sesskey=&zid=&tk=&r=&s=&cmpid=&viga=" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:56
+cls & Echo Enlace generado & echo . |set /p="https://ca1.qualtrics.com/jfe/form/SV_0GwFPO9XSFAf7sV?gc=1&term=&Quota=&opp=Qual739-0408BigPictureBranding&Country=&Wave=&email=&V=H%20&rid=%ID%&RISN=%RISN%&rnid=&study=&uig=&gid=&sname=&uid=&PID=&psid=&K2=&med=&id=&ppsid=&ac=&sn=&lang=&vid=&token=&sid=&EOLID=&password=&spider=&cintid=&ProjectToken=&job=&custom1=&YGID=&ID=&identifier=&pcid=&sesskey=&zid=&tk=&r=&s=&cmpid=&viga=&C=" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:57
+cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:58
+cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:59
+cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:60
+cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:61
+cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:62
+cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+:63
+cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :64
 cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :65
