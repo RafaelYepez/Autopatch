@@ -15,7 +15,7 @@ echo       "888 .d888888 888  888  888 888  888 888 888 888      888 888  888
 echo Y88b  d88P 888  888 888  888  888 888 d88P 888 888 Y88b.    888 Y88..88P 
 echo  "Y8888P"  "Y888888 888  888  888 88888P"  888 888  "Y8888P 888  "Y88P"  
 echo ================================= 888 =====================================
-echo           Versi¢n 4.0             888         Creado por:                       
+echo           Versión 3.0             888         Creado por:                       
 echo                                   888                     Rafael Y‚pez
 
 Set /P "ENLACE=%username% Introduce el enlace completo: "
@@ -33,34 +33,34 @@ cls
 :Menu
 cls
 Echo.
-echo 1  7thsr.co1.qualtrics.com		26 ns207.askia.com		51 UNIVERSAL / PRUEBA
-echo 2  aytm.com				27 QuestMindShare.com		53 ws.int-research.com
-echo 3  bizpinion.com			28 rds-surveys.com		54 xxx.az1.qualtrics.com
-echo 4  caravan.enginegroup.com		29 reviewrobin.com		55 xxx.qualtrics.com
-echo 5  co1.qualtrics.com			30 SampleUnion			56 zippo.co1.qualtrics.com	
-echo 6  core-gp.firstinsight.com		31 selfserve.decipherinc.com	
-echo 7  crweblab.com				32 shineunited.qualtrics.com	
-echo 8  daisurvey.com			33 survey.admemes.com		
-echo 9  dimensions4.mercuryanalytics.com	34 survey.bz
-echo 10 dirsurveys.com			35 survey.cmix.com	
-echo 11 enter.ipsosinteractive.com		36 survey.co1.qualtrics.com
-echo 12 fp.surveys.datassential.com		37 survey.mpeweb.co.u
-echo 13 g4-us.yougov.com			38 survey.orcinternational.com		
-echo 14 gutcheck.decipherinc.com		39 survey.orcinternational.com
-echo 15 hanover-research.qualtrics.com	40 survey18.toluna.com
-echo 16 ilabinsight.com			41 survey2.voicefive.com
-echo 17 illumesurveys.com			42 Survey7.burke	
-echo 18 invite.rmrsurveys.com		43 survey7.jdpoweronline.com
-echo 19 isurvey-us.yougov.com		44 survey-d.researchnow.com
-echo 20 jfe-cdn.qualtrics.com		45 surveygizmo.com	
-echo 21 linescale.com			46 surveys.globaltestmarket.com
-echo 22 m1.intellisurvey.com			47 surveys.savanta.com
-echo 23 marcoline.com			48 tes.decipherinc.com
-echo 24 mysurveys.com			49 ugam.decipherinc.com
-echo 25 nrg.decipherinc.com			50 uk.focusvision.com
-Echo 00 - MµS OPCIONES
+echo 1  7thsr.co1.qualtrics.com	    26 ns207.askia.com		51 UNIVERSAL / PRUEBA
+echo 2  aytm.com	    		    27 QuestMindShare.com	53 ws.int-research.com
+echo 3  bizpinion.com		    28 rds-surveys.com		54 xxx.az1.qualtrics.com
+echo 4  caravan.enginegroup.com	    29 reviewrobin.com		55 xxx.qualtrics.com
+echo 5  co1.qualtrics.com	    	    30 SampleUnion		56 zippo.co1.qualtrics.com	
+echo 6  core-gp.firstinsight.com	    31 selfserve.decipherinc	57 dkr1.surveys.com 
+echo 7  crweblab.com	    		    32 shineunited.qualtrics	58 emea.focusvision.com
+echo 8  daisurvey.com	    	    33 survey.admemes.com 	59 survey.savanta.com
+echo 9  dimensions4.mercuryanalytics.com 34 survey.bz		60 opinion.gazelleglobal.com
+echo 10 dirsurveys.com		    35 survey.cmix.com		61 router.cint.com
+echo 11 enter.ipsosinteractive.com	    36 survey.co1.qualtrics	62 survey.researchresults.com
+echo 12 fp.surveys.datassential.com	    37 survey.mpeweb.co.u	63 websurvey2.opinionbar.com
+echo 13 g4-us.yougov.com		    38 survey.orcinternational		
+echo 14 gutcheck.decipherinc.com	    39 survey.orcinternational
+echo 15 hanover-research.qualtrics.com   40 survey18.toluna.com
+echo 16 ilabinsight.com		    41 survey2.voicefive.com
+echo 17 illumesurveys.com		    42 Survey7.burke	
+echo 18 invite.rmrsurveys.com	    43 survey7.jdpoweronline.com
+echo 19 isurvey-us.yougov.com	    44 survey-d.researchnow.com
+echo 20 jfe-cdn.qualtrics.com	    45 surveygizmo.com	
+echo 21 linescale.com		    46 surveys.globaltestmarket
+echo 22 m1.intellisurvey.com		    47 surveys.savanta.com
+echo 23 marcoline.com		    48 tes.decipherinc.com
+echo 24 mysurveys.com		    49 ugam.decipherinc.com
+echo 25 nrg.decipherinc.com		    50 uk.focusvision.com
+Echo 00 - MÁS OPCIONES
 Echo.
-set /p menup= ¨Qu‚ encuesta te toc¢? Escribe el n£mero de la opci¢n elegida (Sin punto):
+set /p menup= ¿Qué encuesta te tocó? Escribe el número de la opción elegida (Sin punto):
 
 if %menup%==1 goto 1
 if %menup%==2 goto 2
@@ -169,7 +169,7 @@ Echo  99 - ESPACIO RESERVADO				124 - ESPACIO RESERVADO				149 - ESPACIO RESERVA
 Echo 100 - ESPACIO RESERVADO				125 - ESPACIO RESERVADO				150 - ESPACIO RESERVADO
 Echo  00 - REGRESAR AL MENU PRINCIPAL
 Echo.
-set /p menup= ¨Qu‚ encuesta te toc¢? Escribe el n£mero de la opci¢n elegida (Sin punto):
+set /p menup= ¿Qué encuesta te tocó? Escribe el número de la opción elegida (Sin punto):
 
 if %menup%==76 goto 76 & if %menup%==77 goto 77 & if %menup%==78 goto 78 & if %menup%==79 goto 79 & if %menup%==80 goto 80 
 if %menup%==81 goto 81 & if %menup%==82 goto 82 & if %menup%==83 goto 83 & if %menup%==84 goto 84 & if %menup%==85 goto 85 
@@ -301,19 +301,19 @@ cls & Echo Enlace generado & echo . |set /p="https://ca1.qualtrics.com/jfe/form/
 :56
 cls & Echo Enlace generado & echo . |set /p="https://ca1.qualtrics.com/jfe/form/SV_0GwFPO9XSFAf7sV?gc=1&term=&Quota=&opp=Qual739-0408BigPictureBranding&Country=&Wave=&email=&V=H%20&rid=%ID%&RISN=%RISN%&rnid=&study=&uig=&gid=&sname=&uid=&PID=&psid=&K2=&med=&id=&ppsid=&ac=&sn=&lang=&vid=&token=&sid=&EOLID=&password=&spider=&cintid=&ProjectToken=&job=&custom1=&YGID=&ID=&identifier=&pcid=&sesskey=&zid=&tk=&r=&s=&cmpid=&viga=&C=" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :57
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :58
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=98b98d10-789d-42ec-ba71-a077cbbd909c&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :59
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://samplicio.us/s/ClientCallBack.aspx?RIS=10&RID=%ID%&ienc2=3c3p7wF0kycOMrQxq-aner0Tusg" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :60
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=f28e5f9a-8e40-4635-8591-c6527a2c370a&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :61
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=383e09ff-f3fb-42cf-ae9a-66d30ab11d0f&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :62
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=77d83a90-e5e2-443a-8397-fabadc65ead6&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :63
-cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
+cls & Echo Enlace generado & echo . |set /p="https://notch.insights.supply/cb?token=b7cdecaa-c5bc-49fc-add2-fa9994940879&RID=%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :64
 cls & Echo Enlace generado & echo . |set /p="%ID%" | CLIP & Echo Enlace copiado al portapapeles & pause & cls & goto Encuestas
 :65
